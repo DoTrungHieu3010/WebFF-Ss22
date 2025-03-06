@@ -1,0 +1,51 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212931;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.post {
+    width: 800px;
+}
+
+.table {
+    border-color: #eeeeee;
+    width: 800px;
+}
+
+.first h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.second h3 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.table p {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.table button {
+    background-color: white;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    width: 105px;
+    height: 45px;
+    text-transform: uppercase;
+}
+
+.table td {
+    width: 500px;
+}

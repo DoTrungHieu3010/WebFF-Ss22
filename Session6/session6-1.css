@@ -1,0 +1,36 @@
+
+.introduce .title {
+    background-color: #007bff;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title h1 {
+    text-align: center;
+}
+.title p {
+    text-align: center;
+}
+.title .support {
+    padding-right: 20px;
+}
+.content .img {
+    width: 200px;
+    border-radius: 100px;
+    border: 3px solid #0079ff;
+}
+.introduce .content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.content p:nth-child(2) {
+    padding-top: 100px;
+    padding-left: 10px;
+}
+.introduce .contact {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

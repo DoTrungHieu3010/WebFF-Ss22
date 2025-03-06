@@ -1,0 +1,23 @@
+h4 {
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+section {
+    display: flex;
+    gap: 20px;
+}
+
+.section {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.section .child {
+    display: flex;
+    gap: 5px;
+}
+
+.card-title {
+    margin-top: 77px;
+}

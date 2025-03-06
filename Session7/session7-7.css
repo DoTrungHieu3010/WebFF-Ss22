@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #212529;
+    margin: 0;
+    padding: 0;
+}
+
+.form {
+    width: 400px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.form h3 {
+    padding: 15px;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.recipient {
+    padding: 15px;
+}
+
+.recipient input {
+    margin-top: 8px;
+    border-radius: 5px;
+    border-color: #dee2e6;
+    width: -webkit-fill-available;
+}
+
+.message {
+    padding: 15px;
+    border-bottom: 2px solid #dee2e6;
+}
+.message textarea {
+    margin-top: 8px;
+    border-radius: 5px;
+    border-color: #dee2e6;
+    width: max-content;
+}
+.button {
+    display: flex;
+    justify-content: left;
+}

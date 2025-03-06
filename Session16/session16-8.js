@@ -1,0 +1,5 @@
+var firstNum = +prompt("So thu nhat")
+var secondNum = +prompt("So thu hai")
+var thirdNum = +prompt("So thu ba")
+let max = Math.max(firstNum, secondNum, thirdNum)
+document.write(max)

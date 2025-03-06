@@ -1,0 +1,47 @@
+let month = +prompt("Nhap thang")
+let year = +prompt("Nhap nam")
+switch (month) {
+    case 1:
+        alert("Thang 1 co 31 ngay")
+        break
+    case 2:
+        if (year % 4 == 0) {
+            alert(`thang 2 co 29 ngay`)
+        } else {
+            alert(`thang 2 co 28 ngay`)
+        }
+        break
+    case 3:
+        alert("Thang 3 co 31 ngay")
+        break
+    case 4:
+        alert("Thang 4 co 30 ngay")
+        break
+    case 5:
+        alert("Thang 5 co 31 ngay")
+        break
+    case 6:
+        alert("Thang 6 co 30 ngay")
+        break
+    case 7:
+        alert("Thang 7 co 31 ngay")
+        break
+    case 8:
+        alert("Thang 8 co 31 ngay")
+        break
+    case 9:
+        alert("Thang 9 co 30 ngay")
+        break
+    case 10:
+        alert("Thang 10 co 31 ngay")
+        break
+    case 11:
+        alert("Thang 11 co 30 ngay")
+        break
+    case 12:
+        alert("Thang 12 co 31 ngay")
+        break
+    default:
+        alert("Thang khong hop le")
+        break
+}

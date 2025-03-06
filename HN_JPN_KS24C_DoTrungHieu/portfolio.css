@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Sora", serif;
+}
+
+section {
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+    height: fit-content;
+    width: auto;
+    padding: 0 32px;
+    margin: 24px 80px;
+}
+
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.logo img {
+    width: 23px;
+    height: 35px;
+}
+
+.logo p {
+    font-weight: bold;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 32px;
+    width: fit-content;
+    height: fit-content;
+    padding: 16px 0;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    font-size: 20;
+    font-weight:bolder;
+    color: black;
+}
+
+.navbar button {
+    background-color: black;
+    color: white;
+    padding: 16px 48px 16px 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+
+.navbar .menu {
+    display: none;
+}
+
+.navbar button img {
+    position: absolute;
+    top: 21px;
+    right: 18px;
+}
+
+.container {
+    position: relative;
+    margin: 0 80px;
+}
+
+.title {
+    width: 600px;
+    height:fit-content;
+    margin: 110px 648px 110px 32px;
+}
+
+.title div {
+    font-size: 48px;
+    display: flex;
+    gap: 16px;
+}
+
+.title div p {
+    width: max-content;
+}
+
+.title .text-02 {
+    font-weight: 800;
+
+}
+
+.title .text-03 {
+    color: white;
+    -webkit-text-stroke: 3px black;
+}
+
+.title .text-04 {
+    font-size: 16px;
+    color: #71717A;
+}
+
+.image {
+    position: absolute;
+    width: 796px;
+    height: 941px;
+    top: -85px;
+    right: 200px;
+}
+
+.title div:nth-child(3) {
+    margin-bottom: 32px;
+}
+
+section .button {
+    display: flex;
+    gap: 32px;
+    padding: 4px 0;
+    position: absolute;
+    bottom: -260px;
+    left: 115px;
+}
+
+.skill {
+    margin: 350px 0 0 0;
+    padding: 0 32px;
+}
+
+.skill .container {
+    width: 1216px;
+}
+
+.skill .container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 1216px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    font-size: 48px;
+}
+
+.skill .container .title p:nth-child(2) {
+    font-weight: 800;
+}
+
+.row {
+    display: flex;
+    gap: 71.5px;
+    padding: 20px 32px;
+}
+
+.testimonial {
+    background-color: black;
+    color: white;
+}
+
+.testimonial .container .title p:nth-child(2) {
+    font-weight: 800;
+}
+
+.testimonial .container .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    width: 1216px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    font-size: 48px;
+}
+
+.testimonial .container .row .section {
+    width: 1168px;
+    height: 192px;
+    padding: 30px 24px;
+    border: 1px solid #71717A;
+    margin-bottom: 32px;
+    border-radius: 10px;
+}
+
+.testimonial .container .row .section div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.testimonial .container .row {
+    padding: 40px 24px;
+    margin: 0 32px;
+}
+
+.testimonial .container .row:nth-child(3) .section {
+    background-color: #71717A;
+}
+
+.testimonial .container .row .section div:nth-child(2) {
+    font-size: 16px;
+    color: #D4D4D8;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 24px 80px;
+}
+footer .note p{
+    font-weight: 600px;
+    font-size: 16px;
+}
+
+@media screen and (max-weidth: 375px) {
+    header .navbar nav {
+        display: none;
+    }
+    header .navbar .button {
+        display: none;
+    }
+}

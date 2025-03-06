@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(255, 144, 144);
+    flex-direction: row;
+    justify-content: center;
+    height: 800px;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.container .child {
+    background-color: rgb(215, 203, 255);
+    border: 2px solid black;
+    font-size: 20px;
+    color: white;
+    width: 150px;
+    height: 150px;
+}
+
+.container .child:nth-child(2) {
+    flex-grow: 1px;
+}

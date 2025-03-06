@@ -1,0 +1,44 @@
+/* h1 {
+    background-color: red;
+} */
+
+/* @media screen and (max-width: 768px) {
+    h1 {
+        background-color: blue;
+    }
+} */
+/* Desktop-may tinh de ban */
+/* h3 {
+    background-color: rebeccapurple;
+    color: cadetblue;
+} */
+
+/* Laptop */
+/* @media screen and (max-width: 1200px) {
+    h3 {
+        background-color: aqua;
+    }
+} */
+/* bablet ngang */
+/* @media screen and (max-width: 1024px) {
+    h3 {
+        background-color: hotpink;
+    }
+} */
+/* tablet doc */
+/* @media screen and (max-width) {
+    h3 {
+        background-color: greenyellow;
+    }    
+} */
+/* phone */
+/* @media screen and (max-width) {
+    h3 {
+        background-color: ;
+    }
+} */
+
+/* mobile first */
+h1 {
+    background-color: red;
+}

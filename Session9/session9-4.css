@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.content {
+    display: flex;
+    gap: 5px;
+}
+
+.section header {
+    background-color: #3498db;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.section footer {
+    background-color: #9b59b6;
+    margin-top: 5px;
+    padding: 5px;
+}
+.content p:nth-child(1) {
+    background-color: #2ecc71;
+    height: 300px;
+    padding: 5px;
+    flex: 1;
+}
+.content p:nth-child(2) {
+    background-color: #e74c3c;
+    padding: 5px;
+    flex: 3;
+}

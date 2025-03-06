@@ -1,0 +1,103 @@
+/* .relative {
+    margin-top: 100px;
+}
+.relative h3 {
+    margin-bottom: 50px;
+}
+.relative span {
+    padding: 40px;
+    border: 10px solid black;
+    background-color: yellow;
+    margin-right: 20px;
+}
+.absolute {
+    margin-top: 100px;
+}
+.absolute h3 {
+    margin-bottom: 50px;
+}section {
+    margin-left: 20px;
+}
+.relative span:nth-child(2){
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+.absolute span:nth-child(2){
+    position: absolute;
+}
+.block {
+    width: 170px;
+    height: 340px;
+    border: 5px solid black;
+    margin-top: 150px;
+    margin-left: 30px;
+    padding: 40px;
+    background-color: antiquewhite;
+    font-size: 10px;
+    position: relative;
+}
+.block span {
+    background-color: brown;
+    color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.absolute span {
+    padding: 40px;
+    border: 10px solid rgb(139, 0, 246);
+    background-color: rgb(255, 68, 0);
+    margin-right: 20px;
+} */
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #2d2d2d;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.post-container {
+    position: relative;
+    width: 400px;
+
+}
+
+.post-container img {
+    width: 100%;
+}
+
+.post-container h3 {
+    text-transform: uppercase;
+    font-size: 28px;
+    padding-left: 20px;
+    border-left: 5px solid #ff6116;
+    margin-bottom: 20px;
+}
+
+.post-container .post-title {
+    padding: 20px;
+    position: absolute;
+    top: 440px;
+    left: 0px;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 35%, rgba(0, 212, 255, 0) 100%);
+}
+
+.post-container .post-title a {
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+.post-container li {
+    padding: 15px 0;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 17px;
+    font-weight: bold;
+}
+.post-container li a {
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+.title {
+    color: aqua;
+}
+
+.paragraph {
+    margin-top: 15px;
+    display: block;
+    width: 45%;
+}
+
+.second-tr{
+    margin-top: 15px;
+}
+
+.fourth-tr{
+    margin-bottom: 15px;
+}
+
+.colortd {
+    width: 5px;
+    background-color: yellow;
+}
+
+.table {
+    width: 50%;
+    background-color: whitesmoke;
+}

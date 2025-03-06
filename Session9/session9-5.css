@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 2px;
+    color: white;
+}
+
+.first {
+    display: flex;
+    gap: 7px;
+}
+
+.second {
+    display: flex;
+    gap: 7px;
+    justify-content: space-between;
+}
+
+.first div {
+    display: flex;
+    background-color: #800080;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 7px;
+}
+
+.second div {
+    display: flex;
+    background-color: #800080;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 7px;
+    width: 245px;
+}
+

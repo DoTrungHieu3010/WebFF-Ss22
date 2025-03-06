@@ -1,0 +1,6 @@
+let d1 = prompt("date1")
+let d2 = prompt("date2")
+date1 = new Date(d1)
+date2 = new Date(d2)
+result = (date2 - date1) / (1000 * 60 * 60 * 24)
+alert(result)

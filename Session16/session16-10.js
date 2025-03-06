@@ -1,0 +1,6 @@
+var firstNum = +prompt("So thu nhat")
+var secondNum = +prompt("So thu hai")
+let max = Math.max(firstNum, secondNum)
+let min = Math.min(firstNum, secondNum)
+let random = Math.floor(Math.random() * (max - min - 2 + 1) + (min+1))
+alert(random)

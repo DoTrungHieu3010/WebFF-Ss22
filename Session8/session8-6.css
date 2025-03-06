@@ -1,0 +1,45 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-color: #353535;
+    width: 500px;
+}
+
+.section {
+    padding: 20px;
+    width: 500px;
+    position: relative;
+}
+
+.section input {
+    width: 360px;
+    padding: 10px 40px 10px;
+    border-radius: 50px;
+}
+
+.form {
+    position: relative;
+}
+
+.section .glass {
+    position: absolute;
+    top: 30px;
+    left: 32px;
+}
+
+.section .mic {
+    position: absolute;
+    top: 30px;
+    right: 169px;
+}
+
+.section .cam {
+    position: absolute;
+    top: 30px;
+    right: 135px;
+}

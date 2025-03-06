@@ -1,0 +1,58 @@
+/* B1: Thiết lập trông số chung */
+
+* {
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    color: #1d1c1c;
+}
+
+.ex-06 h3 {
+    font-size: 35px;
+}
+
+.ex-06 .syntax {
+    background-color: #f4f3f3;
+    color: #cf2253;
+}
+
+.ex-06 .demo-figure {
+    border: 3px solid #1c861e;
+    text-align: center;
+    line-height: 4;
+}
+.ex-06 .demo-code {
+    background-color: #e5e9ed;
+    padding: 20px;
+    margin-top: 20px;
+}
+.demo-code h4 {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.demo-code .code-content {
+    background-color: #ffffff;
+    border-left: 4px solid #05ad6e;
+    padding: 15px;
+}
+.code-content p:nth-child(1) {
+    margin-top: 0;
+}
+.code-content p:nth-child(2) {
+    margin-left: 20px;
+}
+.code-content p:nth-child(3) {
+    margin-left: 20px;
+}
+.code-content p:nth-child(4) {
+    margin-bottom: 0;
+}
+.ex-06 .button {
+    background-color: #05aa6c;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #949494;
+    font-size: 13px;
+}
+
+.bar {
+    display: flex;
+    background-color: #e5e5e5;
+    align-items: center;
+    gap: 80px;
+    position: relative;
+}
+
+
+.bar p:nth-child(1) {
+    font-family: "Dancing Script", serif;
+    font-size: 32px;
+    padding-left: 150px;
+    padding-right: 60px;
+    color: black;
+}
+
+.bar button {
+    background-color:  #8d939e;
+    color: #f5f5f6;
+    border: none;
+    width: 80px;
+    height: 25px;
+    padding-left: 20px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.bar .glass {
+    position: absolute;
+    top: 12px;
+    right: 158px;
+}
+
+.fa-solid {
+    color: white;
+}
+
+.bar p:nth-child(2) {
+    color: black;
+}

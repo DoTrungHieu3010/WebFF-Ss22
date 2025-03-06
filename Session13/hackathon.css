@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Heebo", serif;
+    color: #21243D;
+}
+
+.select {
+    display: flex;
+    justify-content: end;
+    gap: 33px;
+    font-size: 20px;
+    padding-right: 60px;
+    font-weight: 500;
+    padding-top: 27px;
+}
+
+.container-01 {
+    display: flex;
+    justify-content: space-between;
+    gap: 101px;
+}
+
+.introduce-01 {
+    padding-left: 148px;
+    padding-top: 228px;
+}
+
+.title {
+    width: 497px;
+    height: 66px;
+    font-size: 16px;
+    line-height: auto;
+}
+
+.container-01 img {
+    padding-right: 154px;
+    padding-top: 223px;
+}
+
+.container-01 img {
+    order: 1;
+}
+
+.self {
+    font-weight: bold;
+    font-size: 44px;
+    width: 506px;
+    height: 105px;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #FF6464;
+    width: 208px;
+    height: 47px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 38px;
+    margin-bottom: 71px;
+}
+
+section:nth-of-type(1) {
+    background-color: #EDF7FA;
+}
+
+.main-02 {
+    background-color: #EDF7FA;
+    margin-left: 100px;
+}
+
+.container-02 {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+}
+
+.container-02 .introduce-02 {
+    background-color: white;
+    width: 418px;
+    height: 245px;
+}
+
+.container-02 .introduce-02 .title {
+    font-weight: bold;
+    font-size: 26px;
+    width: 374px;
+    height: 85px;
+    padding: 24px 21px 17px 23px;
+}
+
+.time {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.time p:nth-child(1) {
+    border-right: 1px solid gray;
+    padding-right: 10px;
+}
+
+.time p:nth-child(2) {
+    padding-left: 10px;
+}
+
+.view {
+    display: flex;
+    margin: 15px;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.main-03 {
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.container-03 {
+    display: flex;
+    border-bottom: 1px solid white;
+}
+
+.day {
+    display: flex;
+    padding-top: 20px;
+}
+
+.introduce-03 {
+    margin-left: 50px;
+    margin-top: 27px;
+}
+
+.container-03 img {
+    margin-top: 30px;
+}
+
+.year {
+    background-color: rgb(4, 4, 124);
+    border-radius: 20px;
+    color: rgb(5, 4, 4);
+    padding: 5px;
+}
+
+.type {
+    margin-left: 10px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.lorem {
+    margin: 0px;
+    padding-top: 20px;
+}
+
+.icon {
+    padding-left: 340px;
+    padding-top: 60px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    margin: 8px;
+}
+
+.reserved {
+    padding-left: 300px;
+}
+
+.end {
+    padding-left: 300px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bar {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .item {
+        display: none;
+    }
+
+    .bars {
+        display: block;
+        display: flex;
+        justify-content: end;
+        font-size: 40px;
+        padding-top: 20px;
+    }
+
+    .container-02 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .end {
+        padding: 0px;
+    }
+
+    .view {
+        justify-content: center;
+    }
+
+    a {
+        display: none;
+    }
+
+    .container-03 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-03 img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .container-01 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .container-01 img {
+        width: 245px;
+        height: 245px;
+    }
+}
